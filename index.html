@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="reymonr" />
+		<meta
+			name="keywords"
+			content="html, beginner, unklab, fik, informatika, web"
+		/>
+		<meta
+			name="description"
+			content="Website ini berisi tutorial dasar HTML untuk pemula"
+		/>
+
+		<!-- ATTACH STYLESHEET - CSS -->
+		<link rel="stylesheet" href="style.css" />
+
+		<!-- ATTACH FONT -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>Home - MyWebsite</title>
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<a href="index.html">Home</a> | <a href="about.html">About</a> |
+				<a href="news/artikel-1.html">Daftar Artikel</a>
+			</nav>
+		</header>
+
+		<content>
+			<h1>Dokumen HTML Pertama Saya</h1>
+
+			<h3>Daftar Isi:</h3>
+			<ul>
+				<li><a href="#daftar_belanja">DAFTAR BELANJA ANAK IT</a></li>
+				<li><a href="#traveling_plan">TRAVELING PLAN</a></li>
+				<li><a href="#daftar_mahasiswa">DAFTAR MAHASISWA</a></li>
+				<li><a href="#kontak">KONTAK</a></li>
+			</ul>
+
+			<p>
+				<b>Lorem</b> ipsum <i>dolor sit amet</i> consectetur adipisicing elit.
+				Autem quisquam optio asperiores fugit sapiente quasi harum explicabo,
+				distinctio molestiae natus consequatur sint ullam debitis unde
+				praesentium corrupti accusamus?
+				<span class="warnaLain">Temporibus, atque?</span>
+			</p>
+
+			<p>
+				<span class="warnaLain">Lorem ipsum dolor sit amet</span> consectetur
+				adipisicing elit. Sapiente earum eveniet, minima fugit asperiores
+				placeat necessitatibus assumenda officia enim, reiciendis officiis porro
+				corporis? Dolores, ut corrupti. Illo at earum facilis!
+			</p>
+
+			<p>
+				You can use <abbr title="Cascading Style Sheets">CSS</abbr> to style
+				your <abbr title="HyperText Markup Language">HTML</abbr>.
+			</p>
+
+			<img src="./laptop.jpg" alt="Gambar Laptop" height="300" width="400" />
+
+			<!-- BUAT DAFTAR YANG TIDAK TERURUT (UNORDERED LIST) -->
+			<h3 id="daftar_belanja">DAFTAR BELANJA ANAK IT</h3>
+			<ul>
+				<li>PC/LAPTOP GAMING</li>
+				<li class="utama prioritas">SMARTPHONE GAMING</li>
+				<li>HEADSET GAMING</li>
+				<li class="utama">KEYBOARD GAMING</li>
+				<li>MOUSE GAMING</li>
+				<li>PC DESK</li>
+				<li class="utama">GAMING CHAIR</li>
+			</ul>
+
+			<!-- BUAT DAFTAR YANG BERURUT (ORDERED LIST) -->
+			<h3 id="traveling_plan">TRAVELING PLAN</h3>
+			<ol>
+				<li>Cek tiket</li>
+				<li>Browsing tempat wisata pantai</li>
+				<li>Cek paket hotel</li>
+				<li>Cari perlengkapan untuk berangkat</li>
+			</ol>
+
+			<h2 id="daftar_mahasiswa">
+				DAFTAR MAHASISWA KELAS FRONT-END WEB DEVELOPMENT B
+			</h2>
+			<table border="1">
+				<tr>
+					<th>NIM</th>
+					<th>Nama Lengkap</th>
+				</tr>
+				<tr>
+					<td>105011910001</td>
+					<td>Gede Yogi Surya Kirana</td>
+				</tr>
+				<tr>
+					<td>105011910002</td>
+					<td>Cristofel Nau</td>
+				</tr>
+				<tr>
+					<td>105011910003</td>
+					<td>Giver Gabriel Alva Panambunan</td>
+				</tr>
+				<tr>
+					<td>105011910004</td>
+					<td>Gracia Meyva Waren Palangan</td>
+				</tr>
+				<tr>
+					<td>105011910005</td>
+					<td>Pierre Jericho Effendy</td>
+				</tr>
+				<tr>
+					<td>105011910006</td>
+					<td>Samuel Merlando Rantung</td>
+				</tr>
+			</table>
+		</content>
+
+		<div id="contact-form">
+			<h2 id="kontak">Send me a message</h2>
+
+			<form action="">
+				<label for="fullName">Full Name</label>
+				<input type="text" name="fullName" /> <br />
+
+				<label for="email">Email Address</label>
+				<input type="email" name="emailAddresss" /> <br />
+
+				<label for="message">Your Message</label>
+				<textarea name="message" cols="30" rows="10"></textarea> <br />
+
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+
+		<footer>
+			<p>MyWebsite - &copy; 2020. All rights reserved.</p>
+		</footer>
+	</body>
+</html>

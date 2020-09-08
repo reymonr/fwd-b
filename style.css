@@ -1,0 +1,47 @@
+p {
+	color: #123456;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+	font-family: 'Russo One', sans-serif;
+}
+
+ul {
+	background-color: skyblue;
+}
+
+.warnaLain {
+	color: red;
+}
+
+.utama {
+	font-weight: bold;
+	color: red;
+}
+
+.prioritas {
+	list-style: url('/priority.svg');
+}
+
+#contact-form {
+	background-color: burlywood;
+	margin: 40px;
+	padding: 20px;
+	border: 10px groove #123654;
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+a:hover {
+	color: blue !important;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+a:visited {
+	color: green;
+}
