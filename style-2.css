@@ -1,0 +1,12 @@
+#container:after {
+	content: ' ';
+	display: block;
+	clear: both;
+	width: 100%;
+	border: 4px dotted blue;
+}
+
+p {
+	float: left;
+	width: 50%;
+}
