@@ -86,14 +86,14 @@
 // main.addEventListener('contextmenu', (e) => {
 // 	e.preventDefault();
 // });
-const card = document.querySelector('.card');
-const output = document.querySelector('#output');
-const box = document.querySelector('#box');
-box.addEventListener('mousemove', eventHandler);
+// const card = document.querySelector('.card');
+// const output = document.querySelector('#output');
+// const box = document.querySelector('#box');
+// box.addEventListener('mousemove', eventHandler);
 
-function eventHandler(e) {
-	console.log(e);
+// function eventHandler(e) {
+// 	console.log(e);
 
-	output.innerHTML = `<h5>offsetX : ${e.offsetX} <br> offsetY: ${e.offsetY}</h5>`;
-	card.style.backgroundColor = `rgb(${e.offsetX}, ${e.offsetY}, 70)`;
-}
+// 	output.innerHTML = `<h5>offsetX : ${e.offsetX} <br> offsetY: ${e.offsetY}</h5>`;
+// 	card.style.backgroundColor = `rgb(${e.offsetX}, ${e.offsetY}, 70)`;
+// }
